@@ -24,16 +24,16 @@ int main()
     scanf("%s", codigoCarta);
 
     printf("Nome da cidade (Sem espaços): \n");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
 
     printf("População: \n");
     scanf("%i", &populacao);
 
     printf("Área (Em Km): \n");
-    scanf("%f", &areaCidade);
+    scanf(" %f", &areaCidade);
 
     printf("PIB: \n");
-    scanf("%f", &pib);
+    scanf(" %f", &pib);
 
     printf("Número de Pontos Turísticos: \n");
     scanf("%i", &pontosTuristicos);
@@ -50,16 +50,16 @@ int main()
     scanf(" %s", codigoCarta2);
 
     printf("Nome da cidade (Sem espaços): \n");
-    scanf("%s", &cidade2);
+    scanf("%s", cidade2);
 
     printf("População: \n");
     scanf("%i", &populacao2);
 
     printf("Área (Em Km): \n");
-    scanf("%f", &areaCidade2);
+    scanf(" %f", &areaCidade2);
 
     printf("PIB: \n");
-    scanf("%f", &pib2);
+    scanf(" %f", &pib2);
 
     printf("Número de Pontos Turísticos: \n");
     scanf("%i", &pontosTuristicos2);
