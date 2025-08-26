@@ -64,6 +64,14 @@ int main()
     printf("Número de Pontos Turísticos: \n");
     scanf("%i", &pontosTuristicos2);
 
+    //Calcular a desidade demográfica e o pib per capita de cada carta
+    float densidadeDemografica = populacao / areaCidade;
+    float densidadeDemografica2 = populacao2 / areaCidade2;
+
+    float pibPerCapita = pib / populacao;
+    float pibPerCapita2 = pib2 / populacao2;
+
+    
     printf("------------------------------------------------------------------------------------------------\n");
 
     // Exibir dados cadastrados
@@ -85,6 +93,10 @@ int main()
 
     printf("Número de Pontos Turísticos: %i \n", pontosTuristicos);
 
+    printf("Densidade demográfica: %.2f hab/km² \n", densidadeDemografica);
+
+    printf("PIB per capita: %.2f reais \n", pibPerCapita);
+
     printf("------------------------------------------------------------------------------------------------\n");
 
     printf("Carta 2:\n");
@@ -102,6 +114,10 @@ int main()
     printf("PIB: %.2f bilhões de reais\n", pib2);
 
     printf("Número de Pontos Turísticos: %i \n", pontosTuristicos2);
+
+    printf("Densidade demográfica: %.2f hab/km² \n", densidadeDemografica2);
+
+    printf("PIB per capita: %.2f reais \n", pibPerCapita2);
 
     return 0;
 }
